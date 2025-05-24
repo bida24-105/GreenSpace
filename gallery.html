@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gallery - GreenScape Landscaping</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="GreenScape Logo" width="180" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-success text-white py-5">
+        <div class="container py-5 text-center">
+            <h1 class="display-4 fw-bold">Our Project Gallery</h1>
+            <p class="lead">See examples of our completed landscaping projects</p>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="py-5">
+        <div class="container py-5">
+
+            <!-- Gallery Grid -->
+            <div class="row g-4 gallery-grid">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="residential">
+                    <div class="card border-0 shadow-sm h-100 overflow-hidden">
+                        <img src="images/project1.jpg" class="card-img-top" alt="Residential Garden Makeover">
+                        <div class="card-img-overlay bg-dark bg-opacity-50 d-flex flex-column justify-content-end text-white">
+                            <h3 class="card-title h5">Residential Garden Makeover</h3>
+                            <p class="card-text">Complete transformation of a backyard space</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="commercial">
+                    <div class="card border-0 shadow-sm h-100 overflow-hidden">
+                        <img src="images/project2.jpg" class="card-img-top" alt="Office Park Landscaping">
+                        <div class="card-img-overlay bg-dark bg-opacity-50 d-flex flex-column justify-content-end text-white">
+                            <h3 class="card-title h5">Office Park Landscaping</h3>
+                            <p class="card-text">Commercial landscaping with native plants</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="gardens">
+                    <div class="card border-0 shadow-sm h-100 overflow-hidden">
+                        <img src="images/project3.jpg" class="card-img-top" alt="Botanical Garden Design">
+                        <div class="card-img-overlay bg-dark bg-opacity-50 d-flex flex-column justify-content-end text-white">
+                            <h3 class="card-title h5">Botanical Garden Design</h3>
+                            <p class="card-text">Themed garden with water features</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="residential">
+                    <div class="card border-0 shadow-sm h-100 overflow-hidden">
+                        <img src="images/service1.jpg" class="card-img-top" alt="Family Garden Creation">
+                        <div class="card-img-overlay bg-dark bg-opacity-50 d-flex flex-column justify-content-end text-white">
+                            <h3 class="card-title h5">Family Garden Creation</h3>
+                            <p class="card-text">Child-friendly space with play areas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="commercial">
+                    <div class="card border-0 shadow-sm h-100 overflow-hidden">
+                        <img src="images/service2.jpg" class="card-img-top" alt="Hotel Grounds Maintenance">
+                        <div class="card-img-overlay bg-dark bg-opacity-50 d-flex flex-column justify-content-end text-white">
+                            <h3 class="card-title h5">Hotel Grounds Maintenance</h3>
+                            <p class="card-text">Ongoing care for luxury resort</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="gardens">
+                    <div class="card border-0 shadow-sm h-100 overflow-hidden">
+                        <img src="images/service3.jpg" class="card-img-top" alt="Mediterranean Garden">
+                        <div class="card-img-overlay bg-dark bg-opacity-50 d-flex flex-column justify-content-end text-white">
+                            <h3 class="card-title h5">Mediterranean Garden</h3>
+                            <p class="card-text">Drought-resistant plant design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-success text-white">
+        <div class="container py-5 text-center">
+            <h2 class="fw-bold mb-4">Inspired by Our Work?</h2>
+            <a href="contact.html" class="btn btn-light btn-lg px-4">Start Your Project Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container py-4">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="images/logo.png" alt="GreenScape Logo" width="180" height="80" class="mb-3">
+                    <p>Creating beautiful outdoor spaces since 2010.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="h5 mb-3">Quick Links</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white-50">Home</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-white-50">About</a></li>
+                        <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-white-50">Services</a></li>
+                        <li class="nav-item mb-2"><a href="gallery.html" class="nav-link p-0 text-white-50">Gallery</a></li>
+                        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-white-50">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="h5 mb-3">Contact Us</h3>
+                    <p>123 Garden Avenue<br>Gaborone, Botswana</p>
+                    <p>Phone: +267 123 4567</p>
+                    <p>Email: info@greenscape.com</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 GreenScape Landscaping. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
